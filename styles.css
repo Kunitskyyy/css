@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: grey;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 10px;
+}
+
+.info-text h4{
+    margin-bottom: 5px;
+    margin-top: 130px;
+}
+
+.info-text p{
+    margin-bottom: px;
+}
+
+.avatar {
+    height: 300px;
+    width: 230px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25)
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    /* text-transform:capitalize; */
+    /* letter-spacing: 15px; */
+    /* word-spacing: 42px; */ 
+}
+
+/* box model */
+
+.container {
+   max-width: 750px;
+   margin: auto;
+}
+
+.social {
+    background-color: green;
+    padding: 15px;
+    border: 5px solid red;
+    margin: 20px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.info{
+    margin-bottom: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 0px;
+    list-style: none;
+}
+
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+
+.form-groupe label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-groupe input,
+.form-groupe textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color:black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row >.form-groupe{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btn {
+    color: #111;
+    padding: 15px 20px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
